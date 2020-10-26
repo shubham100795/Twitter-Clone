@@ -11,7 +11,7 @@ Steps to start the application in a local environment :
 
 1) Download STS(spring tool suite) and import the given project as a maven project (all application related config is inside
  application.properties and all dependencies are inside pom.xml)
-2) Goto TwitterCloneApplication.java , right click and select 'Start as SpringBoot Application'
+2) Run the DB scripts(refer point 4) in order to create the database and the required tables, then goto TwitterCloneApplication.java , right click and select 'Start as SpringBoot Application'
 3) Default port is setup at 8083 ,in case this needs to be changed,
  then that can be done inside application.properties file inside src/main/resources using property 'server.port'
  
